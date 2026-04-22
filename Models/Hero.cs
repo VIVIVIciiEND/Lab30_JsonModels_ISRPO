@@ -22,6 +22,6 @@ public class Hero
     public List<string> Powers { get; set; } = new();
     public Weapon Weapon { get; set; } = new();
     [JsonIgnore]
-    public static? InternalNotes { get; set; } 
-    
+    public string? InternalNotes { get; set; } 
+
 }
